@@ -234,5 +234,10 @@ while (opcion != 7) {
     case 6:
       filtrar_por_precio(lista_productos);
       break;
+    case 7:
+      alert("Gracias por usar nuestra web!");
+      break;
+    default:
+      alert("La opción ingresada no es válida.");
   }
 }
